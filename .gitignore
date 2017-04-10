@@ -1,0 +1,4 @@
+.idea
+ghostdriver.log
+*.pyc
+behave_steps.egg-info

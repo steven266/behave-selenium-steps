@@ -7,13 +7,18 @@ Common steps for website functionality tests
 Usage
 ------
 
-Just copy the features directory into your project. Add some *.feature files and change the settings.py file.
-To run the tests, simply call 'behave' inside of the feature directory
+Install the package and import steps in your steps directory:
+
+```python
+from behave_steps.steps import *
+```
+
+To run the tests, simply call 'behave' inside of the features directory
 
 Features are written in [Gherkin Syntax](https://github.com/cucumber/cucumber/wiki/Gherkin).
 You can add new step-definitions in the steps.py file. Feel free to contribute to this repository!
 
-Have a look at the example.feature file for examples.
+Have a look at the examples.
 
 
 Installation and configuration
@@ -30,3 +35,11 @@ Additional information
 * [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin)
 * [Selenium with Python](http://selenium-python.readthedocs.org/en/latest/)
 * [Selenium](http://docs.seleniumhq.org/)
+
+Contribution and License
+------------------------
+Developed by Steven Cardoso <hello@steven266.de> and is licensed under the
+terms of a MIT license.
+
+Contributions are welcomed and appreciated. Writing (new) test-cases is
+appreciated.
