@@ -7,7 +7,7 @@ requirements = [
 
 setup(
     name='behave_steps',
-    version='0.1.0-dev',
+    version='0.1.0',
     description='Some useful behave step definitions',
     url='https://github.com/steven266/behave-selenium-steps',
     author='Steven Cardoso',
